@@ -96,9 +96,9 @@
   <script src="/assets/js/Meting.min.js" class="meting-script-marker"></script>
   <div id="aplayer-AXqIDvNX"
       class="aplayer aplayer-tag-marker meting-tag-marker aplayer-fixed"
-      data-id="3986017"
+      data-id="71075946"
       data-server="netease"
-      data-type="song"
+      data-type="playlist"
       data-mode="circulation"
       data-autoplay="false"
       data-mutex="true"
