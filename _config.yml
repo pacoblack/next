@@ -97,9 +97,9 @@ creative_commons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 #scheme: Gemini
 
 # Dark Mode
@@ -116,11 +116,11 @@ darkmode: false
 # When running the site in a subdirectory (e.g. yoursite.com/blog), remove the leading slash from link value (/archives -> archives).
 # External url should start with http:// or https://
 menu:
-  home: / || fa fa-home
-  #about: /about/ || fa fa-user
-  #tags: /tags/ || fa fa-tags
-  #categories: /categories/ || fa fa-th
-  archives: /archives/ || fa fa-archive
+  home: / || 主页
+  tags: /tags/ || 标签
+  categories: /categories/ || 分类
+  archives: /archives/ || 归档
+  about: /about/ || 关于
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
@@ -163,7 +163,7 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: #/images/avatar.gif
+  url: /images/avatar1.jpeg
   # If true, the avatar will be dispalyed in circle.
   rounded: false
   # If true, the avatar will be rotated with the cursor.
@@ -177,8 +177,8 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  #GitHub: https://github.com/yourname || fab fa-github
-  #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
+  GitHub: https://github.com/pacoblack || fab fa-github
+  E-Mail: mailto:pacoson.wang@gmail.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
@@ -210,7 +210,7 @@ toc:
   # Automatically add list number to toc.
   number: true
   # If true, all words will placed on next lines if header width longer then sidebar width.
-  wrap: false
+  wrap: true
   # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
   expand_all: false
   # Maximum heading depth of generated toc.
@@ -857,6 +857,15 @@ three:
   three_waves: false
   canvas_lines: false
   canvas_sphere: false
+  canvas_nest: true
+
+canvas_nest:
+  enable: true
+  onmobile: true # display on mobile or not
+  color: '0,0,0' # RGB values, use ',' to separate
+  opacity: 0.5 # the opacity of line: 0~1
+  zIndex: -1 # z-index property of the background
+  count: 99 # the number of lines
 
 # Canvas-ribbon
 # Dependencies: https://github.com/theme-next/theme-next-canvas-ribbon
@@ -986,6 +995,7 @@ vendors:
   three_waves:
   canvas_lines:
   canvas_sphere:
+  canvas_nest: //cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js
 
   # Internal version: 1.0.0
   # canvas_ribbon: //cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-ribbon@1/canvas-ribbon.js
