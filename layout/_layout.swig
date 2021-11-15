@@ -59,9 +59,9 @@
   {% if theme.canvas_nest %}
   <script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
   {% endif %}
-  <link rel="stylesheet" href="/assets/css/APlayer.min.css" class="aplayer-style-marker">
-  <script src="/assets/js/APlayer.min.js" class="aplayer-script-marker"></script>
-  <script src="/assets/js/Meting.min.js" class="meting-script-marker"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.css" class="aplayer-style-marker">
+  <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js" class="aplayer-script-marker"></script>
+  <script src="https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js" class="meting-script-marker"></script>
   <div id="aplayer-AXqIDvNX"
       class="aplayer aplayer-tag-marker meting-tag-marker aplayer-fixed"
       data-id="71075946"
